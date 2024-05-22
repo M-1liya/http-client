@@ -76,16 +76,18 @@ int main()
     nlohmann::json response;
 
     int choice;
-    std::cout << "------------MENU------------" << std::endl;
-    std::cout << "1. Get users" << std::endl;
-    std::cout << "2. Sign up user" << std::endl;
-    std::cout << "3. Delete user" << std::endl;
-    std::cout << "4. Update user" << std::endl;
-    std::cout << "0. Exit" << std::endl;
-    std::cout << "----------------------------" << std::endl;
 
     do
     {
+        std::cout << "\n------------MENU------------" << std::endl;
+        std::cout << "1. Get users" << std::endl;
+        std::cout << "2. Sign up user" << std::endl;
+        std::cout << "3. Delete user" << std::endl;
+        std::cout << "4. Update user" << std::endl;
+        std::cout << "0. Exit" << std::endl;
+        std::cout << "----------------------------" << std::endl;
+
+        
         std::cin >> choice;
         std::string userId;
 
